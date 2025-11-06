@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(4, 0, 19);
+}
+
+.main {
+  background-image: url(img/BD-en-20251006-TRIFECTA-perspective_7f525b99-9439-4901-b590-97150fd1e3ca_large.jpg);
+  height: 97.4vh;
+  background-size: max(1200px, 100vw);
+  width: 100vw;
+  background-position: center center;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  padding: 15px 10px;
+
+  /* text-align: center; */
+}
+
+.nav_bar {
+  height: 100px;
+  width: 65vw;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_bar img {
+  width: 175px;
+
+
+}
+
+.nav_bar button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.meddil_text {
+  padding-top: 100px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  margin: 0 auto;
+  grid-gap: 15px;
+  padding: 25px;
+
+}
+
+.fast_text {
+  padding-top: 200px;
+  color: white;
+  font-size: 70px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.secend_text {
+  color: white;
+  font-weight: bolder;
+  padding: 15px 0px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.three_text {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.register_box {
+  padding-top: 22px;
+  width: 40vw;
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+  /* justify-content: space-between; */
+
+}
+
+.input {
+  width: 22vw;
+  padding: 19px;
+  font-size: 16px;
+  align-items: center;
+  border-radius: 5px;
+  /* color: white; */
+  border: 1px solid white;
+  background-color: rgb(23, 23, 23, 0.24);
+}
+
+.button {
+  width: 12vw;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(134, 2, 2);
+  color: white;
+}
+.button:hover{
+  background-color: rgb(245, 76, 76);
+  transition: 1s ease all;
+}
+
+
+.box {
+  background-color: black;
+  height: 100%;
+  width: 100vw;
+  opacity: 0.65;
+  top: 0;
+  position: absolute;
+}
+
+
+.devider {
+  width: 100vw;
+  height: 10px;
+  background-color: rgb(97, 97, 97);
+}
+
+.main-body {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.poster {
+  margin: 20px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.poster img {
+  width: 10vw;
+  height: 330px;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+
+.cards {
+  width: 60vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  height: 290px;
+  margin: 10px 15px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(1, 42, 64, 1) 51%, rgba(82, 75, 33, 1) 100%);
+}
+
+.card h2 {
+  padding: 20px 2px;
+  color: white;
+  font-size: 28px;
+}
+
+.card p {
+  color: white;
+  font-size: 18px;
+  padding: 10px 2px;
+}
+
+.more_section {
+  padding: 50px 10px;
+}
+
+.questions_section {
+  width: 56vw;
+  margin: 0 auto;
+}
+
+.question {
+  background-color: rgb(49, 49, 49);
+  padding: 30px;
+  margin: 10px 10px;
+
+}
+
+.question:hover {
+  background-color: rgb(87, 86, 86);
+  transition: .5s ease all;
+}
+
+.qn {
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+
+.last {
+  margin-bottom: 40px;
+}
+
+.register_p {
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.rbtwo {
+  width: 45vw;
+  justify-content: space-between;
+}
+
+.itwo {
+  width: 27vw;
+  margin-left: 25px;
+}
+
+.footer_one {
+  width: 60vw;
+  margin: 0 auto;
+  padding: 30px;
+
+}
+
+.footer_one a {
+  color: white;
+}
+
+.footer_section {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 60vw;
+  padding-bottom: 60px;
+
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer a {
+  color: white;
+  padding: 10px 5px;
+}
